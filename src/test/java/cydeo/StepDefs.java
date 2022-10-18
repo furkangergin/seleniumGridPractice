@@ -40,7 +40,7 @@ public class StepDefs {
     @Then("^I should see more results$")
     public void i_should_see_more_results() throws Throwable {
         Thread.sleep(2000);
-        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("srch"));
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("rch"));
     }
 
     @After
